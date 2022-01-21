@@ -95,6 +95,45 @@ header {
         }
 }
 
+//Fumetto contenuto--------------------------------------------------------------------------------------------------------------------------------------
+
+#container-fumetto{
+  margin: 0px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#color-white{
+  background-color: white;
+  padding: 100px 0;
+  #ads{
+    height: 250px;
+  }
+  p{
+    margin-right: 30px;
+  }
+}
+#green-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: chartreuse;
+  margin: 20px 80px 20px 0;
+  #left-halfbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 20px;
+    border-right: 1px solid gray;
+  }
+  #right-halfbar{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+}
 
 #blue-bar {
     height: 150px;

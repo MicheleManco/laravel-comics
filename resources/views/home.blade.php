@@ -15,17 +15,6 @@
         </div>
     
     </div>
-    <div class="serie">
-
-        <div class="serie-img">
-            <img src="https://images-na.ssl-images-amazon.com/images/I/71NxbmiDmgL.jpg">
-        </div>
-
-        <div class="serie-name">
-            <span>Batman affamato</span>
-        </div>
-    
-    </div>
 
     <div class="serie">
 
@@ -38,6 +27,19 @@
         </div>
     
     </div>
+
+    <div class="serie">
+
+        <div class="serie-img">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/71NxbmiDmgL.jpg">
+        </div>
+
+        <div class="serie-name">
+            <span>Batman affamato</span>
+        </div>
+    
+    </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -49,6 +51,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -60,6 +63,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -71,6 +75,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -82,6 +87,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -93,6 +99,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -104,6 +111,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -115,6 +123,7 @@
         </div>
     
     </div>
+
     <div class="serie">
         
         <div class="serie-img">
@@ -126,6 +135,7 @@
         </div>
     
     </div>
+    
     <div class="serie">
         
         <div class="serie-img">
