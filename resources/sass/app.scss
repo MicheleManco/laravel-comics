@@ -1,1 +1,194 @@
-//
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+  }
+// Header ----------------------------------------------------------------------------------------------------------------------------------------
+
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+
+        img {
+            height: 100px;
+            margin: 0 80px;
+        }
+
+        li {
+        display: inline-block;
+        margin: 0 15px;
+        
+        &.active a {
+            border-bottom: 5px solid #0282f9;
+            color: #0282f9
+        }
+
+        a {
+            text-decoration: none;
+            padding-bottom: 48px;
+            color: black;
+        }
+        }
+  }
+
+
+// Jumbo ----------------------------------------------------------------------------------------------------------------------------------------
+#jumbotron {
+    background-image: url("https://www.wallpapertip.com/wmimgs/78-780923_974682-title-comics-dc-comics-superman-batman-wonder.jpg");
+    background-position: center;
+    height: 400px;
+}
+
+
+// Home ----------------------------------------------------------------------------------------------------------------------------------------
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  #current-series {
+    background-color: #0282f9;
+    color: #fff;
+    padding: 20px 30px;
+    position: absolute;
+    top: -29px;
+    left: 0px;
+  }
+  
+  #btn-more {
+    margin: 30px auto;
+    color: white;
+    font-size: 22px;
+    background-color: #0282f9;
+    padding: 10px 55px;
+  }
+
+  .serie {
+    color: #fff;
+    margin-top: 55px;
+    width: calc(100% / 6);
+    padding: 0 20px;
+        
+        .serie-img {
+            width: 100%;
+            overflow: hidden;
+
+            img {
+            
+            max-height: 200px;
+            }
+        }
+
+        .serie-name {
+            margin-top: 20px;
+        }
+}
+
+
+#blue-bar {
+    height: 150px;
+    background-color: #0282f9;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+      .buy-comics {
+        display: flex;
+        align-items: center;
+        margin: 0 30px;
+          img {
+            width: 50px;
+          }
+          
+          span {
+            margin-left: 15px;
+          }
+      }
+  }
+
+  // Footer ----------------------------------------------------------------------------------------------------------------------------------------
+  #footer-menu {
+    background-image: url("https://www.wallpapertip.com/wmimgs/4-45265_dc-wallpaper-hd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+  
+      nav {
+        padding: 45px 0;
+        display: flex;
+        
+          div {
+            margin: 0 10px;
+          }
+        
+      }
+  
+      h3 {
+        color: white;
+        margin-bottom: 10px;
+      }
+  
+      ul {
+        list-style-type: none;
+        margin-bottom: 10px;
+      }
+  
+      li {
+        color: #5b6f7b;
+        margin: 2px 0;
+      }
+  }
+  
+  #logo-footer {
+    img {
+      width: 600px;
+      height: 100%;
+      object-fit: none;
+    }
+  
+  }
+  
+  #footer-contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #303030;
+    padding: 30px 0;
+  
+      .sign-up {
+        padding: 10px 20px;
+        color: #fff;
+        border: 2px solid #0282f9;
+      }
+  
+      .socials {
+        color: #0282f9;
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+          span {
+            margin-right: 20px;
+          }
+          
+          img {
+            margin: 0 10px;
+            width: 50px;
+          }
+      }
+  }
+ 
+
+
+
