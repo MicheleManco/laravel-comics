@@ -1,8 +1,11 @@
 @extends('layouts.main-layout')
 @section('content')
+<div id="background-blue-bar">
+</div>
 <div id="color-white">
-    <div id="container-fumetto">
+    <img id="fumetto-img" src="https://images-na.ssl-images-amazon.com/images/I/71NxbmiDmgL.jpg" alt="">
 
+    <div id="container-fumetto">
         <div>
             <h2>ACTION COMICS #1000: THE DELUXE EDITION</h2>
 
@@ -19,8 +22,44 @@
         <div>
             <img id="ads" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjpa_MwhbCGKXjVvfoUAAnPdbeEghJiJQZdA&usqp=CAU" alt="">
         </div>
-
     </div>
+</div>
+
+<div id="color-light-blue">
+
+    <div id="talents-specs">
+        <div id="talents">
+            <h3>Talent</h3>
+            <div id="more-info">
+                <p class="subtitle">Art by:</p>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias qui voluptatibus assumenda officia, at fugit quo, est eum dolores ipsa illo iste fuga praesentium sapiente suscipit amet minima, quasi laudantium.</p>
+            </div>
+            <div id="more-info">
+                <p class="subtitle">written by:</p>
+                <p class="details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias qui voluptatibus assumenda officia, at fugit quo, est eum dolores ipsa illo iste fuga praesentium sapiente suscipit amet minima, quasi laudantium.</p>
+            </div>
+        </div>
+        <div id="specs">
+            <h3>Specs</h3>
+            <div id="more-info">
+                <p class="subtitle">Series:</p>
+                <p class="details">ACTION COMICS</p>
+            </div>
+            <div id="more-info">
+                <p class="subtitle">Series:</p>
+                <p class="details">ACTION COMICS</p>
+            </div>
+            <div id="more-info">
+                <p class="subtitle">Series:</p>
+                <p class="details">ACTION COMICS</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div>4 cose</div>
+    </div>
+
 </div>
 
 @endsection

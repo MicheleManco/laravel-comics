@@ -88,9 +88,14 @@ header li a {
   margin-top: 20px;
 }
 
+#background-blue-bar {
+  background-color: #0282f9;
+  height: 80px;
+}
+
 #container-fumetto {
   margin: 0px auto;
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,7 +103,8 @@ header li a {
 
 #color-white {
   background-color: white;
-  padding: 100px 0;
+  padding: 50px 0;
+  position: relative;
 }
 
 #color-white #ads {
@@ -107,6 +113,13 @@ header li a {
 
 #color-white p {
   margin-right: 30px;
+}
+
+#color-white #fumetto-img {
+  width: 150px;
+  position: absolute;
+  top: -260px;
+  left: 300px;
 }
 
 #green-bar {
@@ -130,6 +143,38 @@ header li a {
   width: 20%;
   display: flex;
   justify-content: center;
+}
+
+#color-light-blue {
+  background-color: lightblue;
+}
+
+#color-light-blue #talents-specs {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+}
+
+#color-light-blue #talents-specs #talents {
+  width: 50%;
+}
+
+#color-light-blue #talents-specs #specs {
+  width: 50%;
+}
+
+#color-light-blue #talents-specs #more-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px 0 0;
+}
+
+#color-light-blue #talents-specs #more-info .subtitle {
+  width: 30%;
+}
+
+#color-light-blue #talents-specs #more-info .details {
+  width: 70%;
 }
 
 #blue-bar {
