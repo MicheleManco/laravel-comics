@@ -42,7 +42,7 @@ header {
 // Jumbo ----------------------------------------------------------------------------------------------------------------------------------------
 #jumbotron {
     background-image: url("/storage/jumbotron.jpg");
-    background-position: center;
+    background-size:cover ;
     height: 400px;
 }
 
@@ -150,6 +150,7 @@ header {
   #talents-specs{
     display: flex;
     margin: 0 auto;
+    padding: 30px 0;
     width: 70%;
     #talents{
       width: 50%;
