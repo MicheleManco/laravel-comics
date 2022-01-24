@@ -6,12 +6,13 @@
 
     <div class="serie">
 
+        
         <div class="serie-img">
             <img src="https://images-na.ssl-images-amazon.com/images/I/71NxbmiDmgL.jpg">
         </div>
 
         <div class="serie-name">
-            <span>Batman affamato</span>
+            <span><a href="{{route('fumetto')}}"> Batman affamato</a></span>
         </div>
     
     </div>
