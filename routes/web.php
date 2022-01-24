@@ -2,10 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
-})->name('home');
+Route::get('/', 'HomeController@home')->name('home');
 
-Route::get('/fumetto', function () {
-    return view('fumetto');
-})->name('fumetto');
+Route::get('/fumetto' , 'HomeController@fumetto')->name('fumetto');

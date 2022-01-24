@@ -46,12 +46,12 @@
                 <p class="details">ACTION COMICS</p>
             </div>
             <div id="more-info">
-                <p class="subtitle">Series:</p>
-                <p class="details">ACTION COMICS</p>
+                <p class="subtitle">U.S. Price:</p>
+                <p class="details">$19.99</p>
             </div>
             <div id="more-info">
-                <p class="subtitle">Series:</p>
-                <p class="details">ACTION COMICS</p>
+                <p class="subtitle">On Sale Date:</p>
+                <p class="details">Oct 02 2018</p>
             </div>
         </div>
     </div>

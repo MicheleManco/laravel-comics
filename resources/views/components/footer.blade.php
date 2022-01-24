@@ -51,7 +51,7 @@
             </nav>
     
             <div id="logo-footer">
-              <img src="https://www.pngall.com/wp-content/uploads/11/DC-Comics-Logo-PNG-File.png" >
+              <img src="/storage/dc-logo-bg.png" >
             </div>
     
           </section>
